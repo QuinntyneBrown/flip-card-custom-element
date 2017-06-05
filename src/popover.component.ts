@@ -1,10 +1,10 @@
-const html = require("./flip-card.component.html");
-const css = require("./flip-card.component.scss");
+const html = require("./popover.component.html");
+const css = require("./popover.component.scss");
 
 const template = document.createElement("template");
 template.innerHTML = `<style>${css}</style>${html}`;
 
-export class FlipCardComponent extends HTMLElement {
+export class PopoverComponent extends HTMLElement {
     constructor() {
         super();
     }
@@ -40,4 +40,4 @@ export class FlipCardComponent extends HTMLElement {
     }
 }
 
-customElements.define(`ce-flip-card`,FlipCardComponent);
+customElements.define(`ce-popover`,PopoverComponent);

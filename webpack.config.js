@@ -5,7 +5,7 @@ const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 module.exports = {
     devtool: 'source-map',
     entry: {
-        'flip-card.component': './src/flip-card.component'
+        'popover.component': './src/popover.component'
     },
     output: {
         path: __dirname + "/dist",

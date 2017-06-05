@@ -74,11 +74,11 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="index.html" />
-    <Content Include="src\flip-card.component.html">
-      <DependentUpon>flip-card.component.ts</DependentUpon>
+    <Content Include="src\popover.component.html">
+      <DependentUpon>popover.component.ts</DependentUpon>
     </Content>
-    <Content Include="src\flip-card.component.scss">
-      <DependentUpon>flip-card.component.ts</DependentUpon>
+    <Content Include="src\popover.component.scss">
+      <DependentUpon>popover.component.ts</DependentUpon>
     </Content>
     <Content Include="webpack.config.js" />
     <Content Include="tsconfig.json" />
@@ -127,8 +127,15 @@
   </Target>
   -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <ItemGroup>
-    <TypeScriptCompile Include="src\flip-card.component.ts" />
+    <TypeScriptCompile Include="src\popover.component.ts" />
+    <TypeScriptCompile Include="src\popover.d.ts" />
+    <TypeScriptCompile Include="src\popover.service.ts" />
+    <TypeScriptCompile Include="src\rectangle.ts" />
+    <TypeScriptCompile Include="src\ruler.ts" />
+    <TypeScriptCompile Include="src\space.ts" />
+    <TypeScriptCompile Include="src\translate-xy.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
 </Project>

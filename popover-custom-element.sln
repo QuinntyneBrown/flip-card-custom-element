@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flip-card-custom-element", "flip-card-custom-element.csproj", "{D2E02DFE-832E-4369-97A3-93C31331E499}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "popover-custom-element", "popover-custom-element.csproj", "{D2E02DFE-832E-4369-97A3-93C31331E499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
